@@ -1,0 +1,69 @@
+{
+  "kind": "collectionType",
+  "collectionName": "books",
+  "info": {
+    "singularName": "book",
+    "pluralName": "books",
+    "displayName": "Book",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "hasEbook": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "imageCover": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "Tiếng Việt,",
+        "English"
+      ]
+    },
+    "publishAt": {
+      "type": "date"
+    },
+    "stock": {
+      "type": "integer"
+    },
+    "edition": {
+      "type": "string"
+    },
+    "pageCount": {
+      "type": "integer"
+    },
+    "tags": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::tag.tag",
+      "inversedBy": "books"
+    },
+    "categories": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::category.category",
+      "inversedBy": "books"
+    }
+  }
+}

@@ -1,48 +1,7 @@
 {
   "name": "@strapi/strapi",
   "version": "4.25.11",
-  "description": "An open source headless CMS solution to create and manage your own API. It provides a powerful dashboard and features to make your life easier. Databases supported: MySQL, MariaDB, PostgreSQL, SQLite",
-  "keywords": [
-    "strapi",
-    "cms",
-    "cmf",
-    "content management system",
-    "content management framework",
-    "admin panel",
-    "dashboard",
-    "api",
-    "auth",
-    "framework",
-    "http",
-    "json",
-    "koa",
-    "koajs",
-    "helmet",
-    "mvc",
-    "oauth",
-    "oauth2",
-    "orm",
-    "rest",
-    "restful",
-    "security",
-    "jam",
-    "jamstack",
-    "javascript",
-    "headless",
-    "MySQL",
-    "MariaDB",
-    "PostgreSQL",
-    "SQLite",
-    "graphqL",
-    "infrastructure",
-    "backend",
-    "open source",
-    "self hosted",
-    "lerna",
-    "lernajs",
-    "react",
-    "reactjs"
-  ],
+  "private": true,
   "homepage": "https://strapi.io",
   "bugs": {
     "url": "https://github.com/strapi/strapi/issues"
@@ -51,19 +10,7 @@
     "type": "git",
     "url": "git://github.com/strapi/strapi.git"
   },
-  "license": "SEE LICENSE IN LICENSE",
-  "author": {
-    "name": "Strapi Solutions SAS",
-    "email": "hi@strapi.io",
-    "url": "https://strapi.io"
-  },
-  "maintainers": [
-    {
-      "name": "Strapi Solutions SAS",
-      "email": "hi@strapi.io",
-      "url": "https://strapi.io"
-    }
-  ],
+  "license": "MIT",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",

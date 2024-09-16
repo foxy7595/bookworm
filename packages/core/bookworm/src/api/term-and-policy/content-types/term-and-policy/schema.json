@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "term_and_policies",
+  "info": {
+    "singularName": "term-and-policy",
+    "pluralName": "term-and-policies",
+    "displayName": "Term & policy"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "content": {
+      "type": "blocks"
+    }
+  }
+}
