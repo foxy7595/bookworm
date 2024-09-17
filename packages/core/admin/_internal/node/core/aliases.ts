@@ -11,7 +11,6 @@ import { StrapiMonorepo } from './monorepo';
  */
 const devAliases: Record<string, string> = {
   '@strapi/admin/strapi-admin': './packages/core/admin/admin/src',
-  '@strapi/content-releases/strapi-admin': './packages/core/content-releases/admin/src',
   '@strapi/plugin-content-type-builder/strapi-admin':
     './packages/core/content-type-builder/admin/src',
   '@strapi/plugin-email/strapi-admin': './packages/core/email/admin/src',
