@@ -8368,7 +8368,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@strapi/content-releases@npm:4.25.11, @strapi/content-releases@workspace:packages/core/content-releases":
+"@strapi/content-releases@workspace:packages/core/content-releases":
   version: 0.0.0-use.local
   resolution: "@strapi/content-releases@workspace:packages/core/content-releases"
   dependencies:
@@ -9199,13 +9199,12 @@ __metadata:
 
 "@strapi/strapi@file:../strapi::locator=%40strapi%2Fbookworm%40workspace%3Apackages%2Fcore%2Fbookworm":
   version: 4.25.11
-  resolution: "@strapi/strapi@file:../strapi#../strapi::hash=c20971&locator=%40strapi%2Fbookworm%40workspace%3Apackages%2Fcore%2Fbookworm"
+  resolution: "@strapi/strapi@file:../strapi#../strapi::hash=4aa6bb&locator=%40strapi%2Fbookworm%40workspace%3Apackages%2Fcore%2Fbookworm"
   dependencies:
     "@koa/cors": "npm:5.0.0"
     "@koa/router": "npm:10.1.1"
     "@strapi/admin": "npm:4.25.11"
     "@strapi/cloud-cli": "npm:4.25.11"
-    "@strapi/content-releases": "npm:4.25.11"
     "@strapi/data-transfer": "npm:4.25.11"
     "@strapi/database": "npm:4.25.11"
     "@strapi/generate-new": "npm:4.25.11"
@@ -9270,7 +9269,7 @@ __metadata:
     yup: "npm:0.32.9"
   bin:
     strapi: ./bin/strapi.js
-  checksum: 10c0/02ff981dd12b70354252ed5b4205d74911c2a275c10635e8db87fcb98fc112963858b5bdf60a9bf68823e2254830c5b4dbb2f8fc009df34f24e696576e581248
+  checksum: 10c0/151a9688cd188f8c67b2f7e2347aa90dbe478a9b04ab69837f345ce68851ecc9bed656b38a168ba90810356782f11884ba9cc0a9d822430f9825dc3c0fbdc7ac
   languageName: node
   linkType: hard
 
@@ -9282,7 +9281,6 @@ __metadata:
     "@koa/router": "npm:10.1.1"
     "@strapi/admin": "npm:4.25.11"
     "@strapi/cloud-cli": "npm:4.25.11"
-    "@strapi/content-releases": "npm:4.25.11"
     "@strapi/data-transfer": "npm:4.25.11"
     "@strapi/database": "npm:4.25.11"
     "@strapi/generate-new": "npm:4.25.11"

@@ -63,11 +63,6 @@ export default {
     // Hooks that mutates the edit view layout
     app.registerHook('Admin/CM/pages/EditView/mutate-edit-view-layout', mutateEditViewLayoutHook);
     // Hooks that checks if the locale is present in the release
-    app.registerHook(
-      'ContentReleases/pages/ReleaseDetails/add-locale-in-releases',
-      addLocaleToReleasesHook
-    );
-    // Add the settings link
     app.addSettingsLink('global', {
       intlLabel: {
         id: getTranslation('plugin.name'),

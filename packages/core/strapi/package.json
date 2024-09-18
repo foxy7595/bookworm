@@ -62,7 +62,6 @@
     "@koa/router": "10.1.1",
     "@strapi/admin": "4.25.11",
     "@strapi/cloud-cli": "4.25.11",
-    "@strapi/content-releases": "4.25.11",
     "@strapi/data-transfer": "4.25.11",
     "@strapi/database": "4.25.11",
     "@strapi/generate-new": "4.25.11",
